@@ -500,8 +500,7 @@ function updatePositions() {
   var phase2 = (Math.sin((cachedScrollTop / 1250) + 2 % 5));
   var phase3 = (Math.sin((cachedScrollTop / 1250) + 3 % 5));
   var phase4 = (Math.sin((cachedScrollTop / 1250) + 4 % 5));
-  var phase5 = (Math.sin((cachedScrollTop / 1250) + 5 % 5));
-  var phaseArray = [phase0, phase1, phase2, phase3, phase4, phase5];
+  var phaseArray = [phase0, phase1, phase2, phase3, phase4];
 
   for (i = 0; i < cachedLength; i++) {
     var phase = phaseArray[i % 5];
