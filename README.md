@@ -1,5 +1,24 @@
 ## Website Performance Optimization portfolio project
 
+2.1 index.html
+Optimizations: Resized, optimized, and compressed all images using picresize.com, kraken io, and compressor io. Inlined css. Added async tags to scripts to load last. Removed web font code. Added alt tags to images.
+Objective: mobile and desktop scores about 90 - just ran test 4/30 16:10 results 96 desktop 94 mobile.
+
+TO RUN:
+Currently can pull site up direct from https://e-stenger.github.io
+After project expectations met i will change name back to front-end-mobile-portfolio and you can clone page from github.com/e-stenger and run on your local device.
+
+2.2 views/js/main/js and pizza.html
+Optimizations:
+Removed determineDX function, Added newWidth variable to changePizzaSizes function, changed width to percent, moved variables outside of for loops whenever possible. Used getElementsByClassName instead of query selector all. Removed unneccessary code.
+Objectives: to resize pizzas < 5ms is working. Obtain 60fps while scrolling is also working.
+
+TO RUN:
+Currently can pull index.html from http://e-stenger.github.io and click the Cam's Pizzaria link to go right to page.
+After project expectations met i will change name back to front-end-mobile-portfolio and you can clone page from github.com/e-stenger and run on your local device.
+
+Further instructions on optimizations and running on a local server are listed below!
+
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository and inspect the code.
