@@ -376,7 +376,7 @@ var pizzaElementGenerator = function(i) {
   pizzaContainer.style.width = "33.33%";
   pizzaContainer.style.height = "325px";
   pizzaContainer.id = "pizza" + i;                // gives each pizza element a unique id
-  pizzaImageContainer.style.width="35%";
+  pizzaImageContainer.classList.add("col-md-6");
 
   pizzaImage.src = "images/pizza.png";
   pizzaImage.classList.add("img-responsive");
@@ -505,7 +505,7 @@ function updatePositions() {
   for (i = 0; i < cachedLength; i++) {
     var phase = phaseArray[i % 5];
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
-   }
+  }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
   // Super easy to create custom metrics.
