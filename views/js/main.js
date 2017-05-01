@@ -505,7 +505,7 @@ function updatePositions() {
   for (i = 0; i < cachedLength; i++) {
     var phase = phaseArray[i % 5];
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
-  }
+   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
   // Super easy to create custom metrics.
